@@ -8,6 +8,7 @@ class Food(Turtle):
     """Creating the snake food and refreshing it when eaten."""
 
     def __init__(self):
+        # Initialize
         super().__init__()
         self.shape("circle")
         self.penup()
